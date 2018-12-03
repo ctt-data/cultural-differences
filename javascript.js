@@ -3,6 +3,7 @@ $( document ).ready(function() {
 
 	// Start editing here
 	
+$("#question_1").hide();
 $("#answer_question_1").hide();
 $("#question_2").hide();
 $("#answer_question_2").hide();
@@ -18,6 +19,15 @@ $("#question_5").hide();
 $("#answer_question_5").hide();
 $("#finish").hide();
 $("#finish_1").hide();
+
+$("#intro").click(function() {
+  $("#question_1").show();
+  window.scrollTo({
+    left: 0,
+    top: $("#question_1").offset().top,
+    behavior: "smooth"
+  });
+});
 
 $("#first").click(function() {
   message = "Correct!";
