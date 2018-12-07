@@ -1,19 +1,8 @@
-.bg 
-{
-  width: 800px
-    height: 800px}
-.links{
-  color:black}
-
-.is-italics{
-  font-style:italic;
-}
-
-.is-bold{
-  fond-style:italic;
-}
 
 img.Opener {
-  width: 100;
+  width: 85;
   height: auto;
+}
+
+body {font-family: Times New Roman;
 }
