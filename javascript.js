@@ -2,7 +2,8 @@
 $( document ).ready(function() {
 
 	// Start editing here
-	$("#question_1").hide();
+
+$("#question_1").hide();
 $("#answer_question_1").hide();
 $("#question_2").hide();
 $("#answer_question_2").hide();
@@ -173,9 +174,7 @@ $("#finish").click(function() {
     left: 0,
     top: $("#finish_1").offset().top,
     behavior: "smooth"
-  });
 });
-
 
 	// Stop editing here
 	
