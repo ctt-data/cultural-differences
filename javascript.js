@@ -2,8 +2,7 @@
 $( document ).ready(function() {
 
 	// Start editing here
-	
-$("#question_1").hide();
+	$("#question_1").hide();
 $("#answer_question_1").hide();
 $("#question_2").hide();
 $("#answer_question_2").hide();
@@ -34,7 +33,6 @@ $("#first").click(function() {
   $("#answer_text").text(message);
   $("#answer_question_1").show();
   $("#next_question").show();
-});
 
 $("#second").click(function() {
   message = "Try again!";
@@ -160,6 +158,7 @@ $("#fourteenth").click(function() {
   message = "Right!";
   $("#answer_text_5").text(message);
   $("#answer_question_5").show();
+  $("#finish").show();
 });
 
 $("#fifteenth").click(function() {
@@ -172,11 +171,10 @@ $("#finish").click(function() {
   $("#finish_1").show();
   window.scrollTo({
     left: 0,
-    top: $("#question_4").offset().top,
+    top: $("#finish_1").offset().top,
     behavior: "smooth"
   });
 });
-
 
 
 	// Stop editing here
