@@ -1,7 +1,19 @@
 img.Opener {
-  width: 85;
-  height: auto;
+  width: 25;
 }
 
-body {font-family: Times New Roman;
+body {
+  font-family: Garamond;
+}
+
+body {
+  background: #ffffff url("") repeat right center fixed;
+}
+
+.button {
+  max-width: 360px;
+  border: 1px solid black;
+  display: inline-block;
+  word-wrap: break-word;
+  word-break: break-word;
 }
