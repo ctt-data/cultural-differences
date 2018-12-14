@@ -77,7 +77,6 @@ $("#fifth").click(function() {
   $("#answer_question_2").show();
   $("#next_question_2").show();
   $("#question_text_2").show();
-
 });
 
 $("#sixth").click(function() {
@@ -108,7 +107,7 @@ $("#eighth").click(function() {
   $("#answer_text_3").text(message);
   $("#answer_question_3").show();
   $("#next_question_3").show();
-    $("#question_text_3").show();
+  $("#question_text_3").show();
 });
 
 $("#ninth").click(function() {
@@ -116,8 +115,7 @@ $("#ninth").click(function() {
   $("#answer_text_3").text(message);
   $("#answer_question_3").show();
   $("#next_question_3").show();
-      $("#question_text_3").show();
-
+  $("#question_text_3").show();
 });
 
 $("#next_question_3").click(function() {
@@ -148,8 +146,7 @@ $("#twelfth").click(function() {
   $("#answer_text_4").text(message);
   $("#answer_question_4").show();
   $("#final_question").show();
-      $("#question_text_4").show();
-
+  $("#question_text_4").show();
 });
 
 $("#final_question").click(function() {
@@ -172,7 +169,7 @@ $("#fourteenth").click(function() {
   message = "Right!";
   $("#answer_text_5").text(message);
   $("#answer_question_5").show();
-      $("#question_text_5").show();
+  $("#question_text_5").show();
   $("#finish").show();
 });
 
@@ -191,6 +188,8 @@ $("#finish").click(function() {
     behavior: "smooth"
   });
 });
+
+
 
 	// Stop editing here
 	
